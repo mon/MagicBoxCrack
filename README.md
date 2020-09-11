@@ -7,6 +7,8 @@ ripped from random places, awful charting, broken timing and a horrendous UI.
 
 As far as I can tell the company producing this cab went under in 2013.
 
+![sample image](./sample.png)
+
 ## Quickstart
 
 Download the latest [release](https://github.com/mon/MagicBoxCrack/releases).
