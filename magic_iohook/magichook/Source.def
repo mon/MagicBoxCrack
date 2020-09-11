@@ -1,0 +1,23 @@
+﻿LIBRARY ch365dll
+EXPORTS
+; Not exported, hooked instead to avoid dll replacement
+;	CH341EppSetAddr
+;	CH341EppWriteData
+;	CH341EppReadData
+;	CH341CloseDevice
+;	CH341OpenDevice
+	CH365mOpenDevice
+	CH365mSetA15_A8
+	CH365mWriteI2C
+	CH365DelayUS
+	CH365mReadI2C
+	CH365mCloseDevice
+	CH365GetDrvVersion
+	CH365mGetIoBaseAddr
+	CH365mGetMemBaseAddr
+	CH365mSetIntLine
+	CH365mGetIntLine
+	CH365mWriteIntCommand
+	CH365mReadIoByte
+	CH365mSetIntRoutine
+	CH365mWriteIoByte
